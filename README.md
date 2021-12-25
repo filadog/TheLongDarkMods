@@ -1,5 +1,5 @@
 ## UnbreakableBedroll
-Prevents in-game bedroll from degrading due to sleep or passing the time
+*Prevents in-game bedroll degradation caused by sleeping or passing the time*
 
 
 Dependencies: Make sure to have [Melon Loader](https://github.com/LavaGang/MelonLoader/releases) installed\
