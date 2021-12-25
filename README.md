@@ -1,4 +1,4 @@
-# UnbreakableBedroll
+## UnbreakableBedroll
 Prevents in-game bedroll from degrading due to sleep or passing the time
 
 Current version: 1.0.0\
