@@ -7,10 +7,12 @@ namespace UnbreakableBedroll
     internal class Patch
     {
         [HarmonyPatch(typeof(Bed), "Degrade")]
-        private static bool Prefix()
+        internal class Bed_Degrade
         {
-            //MelonLoader.MelonLogger.Msg("Prevented bedroll from degrading");
-            return false;
+            private static bool Prefix()
+            {
+                return false;
+            }
         }
     }
 }
