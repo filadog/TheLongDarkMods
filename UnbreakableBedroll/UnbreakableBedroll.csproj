@@ -7,8 +7,8 @@
     <ProjectGuid>{63F40BEB-161B-4715-8504-BC1AF0544C82}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DemoMod</RootNamespace>
-    <AssemblyName>DemoMod</AssemblyName>
+    <RootNamespace>UnbreakableBedroll</RootNamespace>
+    <AssemblyName>UnbreakableBedroll</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -86,9 +86,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DemoMod.cs" />
+    <Compile Include="UnbreakableBedroll.cs" />
     <Compile Include="Patch.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\.editorconfig">
+      <Link>.editorconfig</Link>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
