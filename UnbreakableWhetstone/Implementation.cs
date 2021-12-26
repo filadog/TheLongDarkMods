@@ -2,7 +2,8 @@
 using MelonLoader;
 using UnityEngine;
 
-namespace UnbreakableBedroll
+
+namespace UnbreakableWhetstone
 {
     public class Implementation : MelonMod
     {
@@ -13,9 +14,9 @@ namespace UnbreakableBedroll
 
     internal static class BuildInfo
     {
-        public const string name = "UnbreakableBedroll";
+        public const string name = "UnbreakableWhetstone";
         public const string author = "filadog";
-        public const string description = "Bedroll won't break from usage. Ever.";
-        public const string version = "1.0.1";
+        public const string description = "Sharpening stone won't break from usage. Ever.";
+        public const string version = "1.0.0";
     }
 }
